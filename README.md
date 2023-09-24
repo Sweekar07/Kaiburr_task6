@@ -16,6 +16,25 @@ Perform a Text Classification on the [consumer complaint dataset](https://catalo
 2. **Text Pre-Processing**
 3. **Selection of Multi Classification model**
 4. **Comparison of model performance**
-5. **Model Evaluation**
-6. **Prediction**
+6. **Model Evaluation**
+7. **Prediction**
 
+### Comparison of Model Performance:
+
+After rigorously testing various supervised learning algorithms including:
+
+- Linear Regression
+- Logistic Regression
+- Support Vector Machines (SVM)
+- Decision Trees
+- Random Forest
+- Gradient Boosted Trees (GBT)
+- AdaBoost
+- Naive Bayes
+- k-Nearest Neighbors (k-NN)
+- Neural Networks
+- ... [and others you might have used]
+
+I observed that the **ExtraTree Classifier** outperformed all other models, achieving an accuracy rate of 88%. This makes it a superior choice for this specific problem.
+
+> **Note:** I also considered training the model using BERT (Bidirectional Encoder Representations from Transformers) due to its potential to further enhance classification performance. However, I encountered memory constraints during the process, which prevented its effective implementation and evaluation.
